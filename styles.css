@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    margin: 30px;
+    background: url("");
+}
+.container_1 .about img {
+    border-radius: 50%;
+    border: 7px solid black;
+}
