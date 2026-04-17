@@ -24,11 +24,12 @@ header nav ul {
     border: 2px solid black;
     border-radius: 50px;
     padding: 30px;
+    font-weight: bold;
+    color: black;
 }
 
 header nav ul li {
     text-decoration: none;
-    color: black;
 }
 
 /* MAIN CONTAINER */
@@ -75,7 +76,7 @@ header nav ul li {
 .container_1 .project div ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    align-content: center;
     gap: 100px;
     margin: 0px;
     list-style: none;
