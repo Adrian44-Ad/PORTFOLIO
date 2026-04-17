@@ -13,12 +13,22 @@ header {
     border: 2px solid black;
     background-color: blanchedalmond;
     border-radius: 30px;
+    justify-content:space-between;
+    align-items: center;
 }
 
 header nav ul {
     display: flex;
-    justify-content:space-between;
     list-style: none;
+    gap: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+header nav ul li {
+    text-decoration: none;
+    color: black;
 }
 
 /* MAIN CONTAINER */
@@ -41,7 +51,7 @@ header nav ul {
     border: 2px solid black;
     background-color:beige;
     border-radius: 30px;
-    padding: 30px;
+    padding: 40px;
     margin: 15px;
 }
 
@@ -62,16 +72,41 @@ header nav ul {
     align-items: center;
 }
 
+.container_1 .project div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 100px;
+    margin: 0px;
+    list-style: none;
+}
+
 /* CONTACT */
 .container_1 .contact {
+    text-align: center;
     border: 2px solid black;
     background-color: bisque;
     border-radius: 30px;
     padding: 30px;
     margin: 15px;
 }
-.container_1 .contact div {
+.container_1 .contact .formulary {
+    font-size: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 50px;
+}
 
+.container_1 .contact .formulary input {
+    border-radius: 20px;
+
+}
+
+.container_1 .contact .formulary input:hover {
+    font-size: 20px;
+    transition: font-size 0.2s ease;  
 }
